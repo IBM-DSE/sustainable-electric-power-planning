@@ -1,0 +1,9 @@
+{
+    "description": "XGBoost Model Trained with Cross-Validation on Texas Electrical Demand Data",
+    "modelVersion": 1,
+    "modifiedAt": 1537285817549,
+    "modifiedBy": "1011",
+    "performanceMetrics": {
+        "explainedVarianceScore": 0.7888458969950956
+    }
+}

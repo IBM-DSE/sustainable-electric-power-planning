@@ -1,0 +1,56 @@
+[2018-09-13T22:47:42Z, INFO] WARNING: Number of workers has been reduced to 1 to comply with platform limitations.
+[2018-09-13T22:47:42Z, INFO] CPXPARAM_Read_DataCheck                          1
+[2018-09-13T22:47:42Z, INFO] CPXPARAM_Threads                                 1
+[2018-09-13T22:47:42Z, INFO] Tried aggregator 3 times.
+[2018-09-13T22:47:42Z, INFO] MIP Presolve eliminated 2698 rows and 398 columns.
+[2018-09-13T22:47:42Z, INFO] Aggregator did 110 substitutions.
+[2018-09-13T22:47:42Z, INFO] Reduced MIP has 2930 rows, 2488 columns, and 12234 nonzeros.
+[2018-09-13T22:47:42Z, INFO] Reduced MIP has 1197 binaries, 0 generals, 0 SOSs, and 44 indicators.
+[2018-09-13T22:47:42Z, INFO] Presolve time = 0.04 sec. (14.36 ticks)
+[2018-09-13T22:47:42Z, INFO] Found incumbent of value 6.2041928e+07 after 0.06 sec. (18.41 ticks)
+[2018-09-13T22:47:42Z, INFO] Probing fixed 22 vars, tightened 68 bounds.
+[2018-09-13T22:47:42Z, INFO] Probing time = 0.01 sec. (6.43 ticks)
+[2018-09-13T22:47:42Z, INFO] Tried aggregator 2 times.
+[2018-09-13T22:47:42Z, INFO] MIP Presolve eliminated 8 rows and 61 columns.
+[2018-09-13T22:47:42Z, INFO] MIP Presolve modified 84 coefficients.
+[2018-09-13T22:47:42Z, INFO] Aggregator did 22 substitutions.
+[2018-09-13T22:47:42Z, INFO] Reduced MIP has 2900 rows, 2405 columns, and 12026 nonzeros.
+[2018-09-13T22:47:42Z, INFO] Reduced MIP has 1750 binaries, 0 generals, 0 SOSs, and 0 indicators.
+[2018-09-13T22:47:42Z, INFO] Presolve time = 0.02 sec. (12.45 ticks)
+[2018-09-13T22:47:42Z, INFO] Probing time = 0.01 sec. (2.53 ticks)
+[2018-09-13T22:47:42Z, INFO] Clique table members: 7642.
+[2018-09-13T22:47:42Z, INFO] MIP emphasis: balance optimality and feasibility.
+[2018-09-13T22:47:42Z, INFO] MIP search method: dynamic search.
+[2018-09-13T22:47:42Z, INFO] Parallel mode: none, using 1 thread.
+[2018-09-13T22:47:42Z, INFO] Root relaxation solution time = 0.02 sec. (15.91 ticks)
+[2018-09-13T22:47:42Z, INFO] 
+[2018-09-13T22:47:42Z, INFO]         Nodes                                         Cuts/
+[2018-09-13T22:47:42Z, INFO]    Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+[2018-09-13T22:47:42Z, INFO] *     0+    0                       6.20419e+07    13880.1900            99.98%
+[2018-09-13T22:47:42Z, INFO]       0     0   2.17590e+07    73   6.20419e+07   2.17590e+07      812   64.93%
+[2018-09-13T22:47:42Z, INFO]       0     0   2.17673e+07   121   6.20419e+07      Cuts: 63     1122   64.92%
+[2018-09-13T22:47:42Z, INFO]       0     0   2.17721e+07   130   6.20419e+07      Cuts: 52     1348   64.91%
+[2018-09-13T22:47:42Z, INFO]       0     0   2.17744e+07   118   6.20419e+07      Cuts: 27     1509   64.90%
+[2018-09-13T22:47:43Z, INFO]       0     0   2.17757e+07   179   6.20419e+07      Cuts: 30     1602   64.90%
+[2018-09-13T22:47:43Z, INFO]       0     0   2.17778e+07   130   6.20419e+07      Cuts: 48     1726   64.90%
+[2018-09-13T22:47:43Z, INFO]       0     0   2.17786e+07    58   6.20419e+07      Cuts: 28     1769   64.90%
+[2018-09-13T22:47:43Z, INFO] *     0+    0                       2.17787e+07   2.17786e+07             0.00%
+[2018-09-13T22:47:43Z, INFO] Cover cuts applied:  10
+[2018-09-13T22:47:43Z, INFO] Flow cuts applied:  25
+[2018-09-13T22:47:43Z, INFO] Mixed integer rounding cuts applied:  59
+[2018-09-13T22:47:43Z, INFO] Zero-half cuts applied:  2
+[2018-09-13T22:47:43Z, INFO] Lift and project cuts applied:  1
+[2018-09-13T22:47:43Z, INFO] Gomory fractional cuts applied:  2
+[2018-09-13T22:47:43Z, INFO] 
+[2018-09-13T22:47:43Z, INFO] Root node processing (before b&c):
+[2018-09-13T22:47:43Z, INFO]   Real time             =    0.75 sec. (222.84 ticks)
+[2018-09-13T22:47:43Z, INFO] Sequential b&c:
+[2018-09-13T22:47:43Z, INFO]   Real time             =    0.00 sec. (0.00 ticks)
+[2018-09-13T22:47:43Z, INFO]                           ------------
+[2018-09-13T22:47:43Z, INFO] Total (root+branch&cut) =    0.75 sec. (222.84 ticks)
+[2018-09-13T22:47:43Z, ERROR] /python_container/docloudcontroller.py:424: SettingWithCopyWarning: 
+[2018-09-13T22:47:43Z, ERROR] A value is trying to be set on a copy of a slice from a DataFrame.
+[2018-09-13T22:47:43Z, ERROR] Try using .loc[row_indexer,col_indexer] = value instead
+[2018-09-13T22:47:43Z, ERROR] 
+[2018-09-13T22:47:43Z, ERROR] See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+[2018-09-13T22:47:43Z, ERROR]   inputChannel = InputChannel(sys.stdin)

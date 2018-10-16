@@ -1,0 +1,76 @@
+{
+    "algorithm": "XGBRegressor",
+    "algorithmType": "Regression",
+    "author": "1011",
+    "createdAt": 1537285817549,
+    "features": [
+        {
+            "name": "Wednesday",
+            "sample": 0,
+            "type": "int"
+        },
+        {
+            "name": "Week",
+            "sample": 53,
+            "type": "int"
+        },
+        {
+            "name": "Thursday",
+            "sample": 0,
+            "type": "int"
+        },
+        {
+            "name": "Sunday",
+            "sample": 0,
+            "type": "int"
+        },
+        {
+            "name": "Hour",
+            "sample": 0,
+            "type": "int"
+        },
+        {
+            "name": "Monday",
+            "sample": 0,
+            "type": "int"
+        },
+        {
+            "name": "Year",
+            "sample": 2016,
+            "type": "int"
+        },
+        {
+            "name": "Tuesday",
+            "sample": 0,
+            "type": "int"
+        },
+        {
+            "name": "Friday",
+            "sample": 1,
+            "type": "int"
+        },
+        {
+            "name": "Saturday",
+            "sample": 0,
+            "type": "int"
+        }
+    ],
+    "id": 1537285817549,
+    "isPublished": false,
+    "labelColumns": [
+        {
+            "name": "ERCOT",
+            "type": "float64"
+        }
+    ],
+    "latestModelVersion": 1,
+    "learningType": "Supervised",
+    "name": "XGBoost Electrical Demand",
+    "params": {},
+    "publishedBy": "",
+    "publishedModelVersion": -1,
+    "runtime": "Python35",
+    "serialization": "joblib",
+    "source": "XGBoost for Time Series Data - Electrical Demand.ipynb",
+    "type": "scikit-learn-0.19"
+}

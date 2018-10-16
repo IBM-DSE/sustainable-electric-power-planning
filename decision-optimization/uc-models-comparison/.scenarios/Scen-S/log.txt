@@ -1,0 +1,106 @@
+[2018-09-13T22:58:01Z, INFO] WARNING: Number of workers has been reduced to 1 to comply with platform limitations.
+[2018-09-13T22:58:01Z, INFO] CPXPARAM_Read_DataCheck                          1
+[2018-09-13T22:58:01Z, INFO] CPXPARAM_Threads                                 1
+[2018-09-13T22:58:01Z, INFO] Tried aggregator 2 times.
+[2018-09-13T22:58:01Z, INFO] MIP Presolve eliminated 23101 rows and 12009 columns.
+[2018-09-13T22:58:01Z, INFO] MIP Presolve modified 70000 coefficients.
+[2018-09-13T22:58:01Z, INFO] Aggregator did 12885 substitutions.
+[2018-09-13T22:58:01Z, INFO] Reduced MIP has 7386 rows, 15810 columns, and 127703 nonzeros.
+[2018-09-13T22:58:01Z, INFO] Reduced MIP has 5687 binaries, 0 generals, 0 SOSs, and 8872 indicators.
+[2018-09-13T22:58:01Z, INFO] Presolve time = 0.63 sec. (934.57 ticks)
+[2018-09-13T22:58:02Z, INFO] Probing fixed 0 vars, tightened 8728 bounds.
+[2018-09-13T22:58:02Z, INFO] Probing time = 0.27 sec. (195.88 ticks)
+[2018-09-13T22:58:02Z, INFO] Tried aggregator 1 time.
+[2018-09-13T22:58:02Z, INFO] MIP Presolve eliminated 7 rows and 0 columns.
+[2018-09-13T22:58:02Z, INFO] Reduced MIP has 7379 rows, 15810 columns, and 127611 nonzeros.
+[2018-09-13T22:58:02Z, INFO] Reduced MIP has 6262 binaries, 0 generals, 0 SOSs, and 8872 indicators.
+[2018-09-13T22:58:02Z, INFO] Presolve time = 0.18 sec. (66.40 ticks)
+[2018-09-13T22:58:02Z, INFO] Probing time = 0.02 sec. (5.69 ticks)
+[2018-09-13T22:58:02Z, INFO] Clique table members: 73623.
+[2018-09-13T22:58:02Z, INFO] MIP emphasis: balance optimality and feasibility.
+[2018-09-13T22:58:02Z, INFO] MIP search method: dynamic search.
+[2018-09-13T22:58:02Z, INFO] Parallel mode: none, using 1 thread.
+[2018-09-13T22:58:03Z, INFO] Root relaxation solution time = 0.29 sec. (155.18 ticks)
+[2018-09-13T22:58:03Z, INFO] 
+[2018-09-13T22:58:03Z, INFO]         Nodes                                         Cuts/
+[2018-09-13T22:58:03Z, INFO]    Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+[2018-09-13T22:58:03Z, INFO]       0     0   2.32193e+07  4176                 2.32193e+07     5536
+[2018-09-13T22:58:03Z, INFO]       0     0   2.32193e+07  4088                  Cuts: 1944     5668
+[2018-09-13T22:58:04Z, INFO]       0     0   2.32193e+07  3912                  Cuts: 1944     5883
+[2018-09-13T22:58:05Z, INFO]       0     0   2.32199e+07  3039                  Cuts: 1944     6878
+[2018-09-13T22:58:06Z, INFO]       0     0   2.32204e+07  1891                  Cuts: 1944     8121
+[2018-09-13T22:58:07Z, INFO]       0     0   2.32250e+07   947                  Cuts: 1944     9513
+[2018-09-13T22:58:08Z, INFO]       0     0   2.32279e+07   265                  Cuts: 1944    10509
+[2018-09-13T22:58:08Z, INFO]       0     0   2.32313e+07   241                   Cuts: 487    10885
+[2018-09-13T22:58:08Z, INFO]       0     0   2.32340e+07   265                   Cuts: 333    11170
+[2018-09-13T22:58:09Z, INFO]       0     0   2.32352e+07   141                   Cuts: 256    11397
+[2018-09-13T22:58:09Z, INFO]       0     0   2.32356e+07   134                   Cuts: 160    11519
+[2018-09-13T22:58:09Z, INFO]       0     0   2.32356e+07   100                   Cuts: 118    11600
+[2018-09-13T22:58:09Z, INFO]       0     0   2.32358e+07    90                   Cuts: 128    11694
+[2018-09-13T22:58:11Z, INFO] *     0+    0                       2.32395e+07   2.32358e+07             0.02%
+[2018-09-13T22:58:11Z, INFO] Repeating presolve.
+[2018-09-13T22:58:11Z, INFO] Tried aggregator 2 times.
+[2018-09-13T22:58:11Z, INFO] MIP Presolve eliminated 3873 rows and 7400 columns.
+[2018-09-13T22:58:11Z, INFO] MIP Presolve modified 26 coefficients.
+[2018-09-13T22:58:11Z, INFO] Aggregator did 36 substitutions.
+[2018-09-13T22:58:11Z, INFO] Reduced MIP has 3470 rows, 8374 columns, and 31839 nonzeros.
+[2018-09-13T22:58:11Z, INFO] Reduced MIP has 3001 binaries, 0 generals, 0 SOSs, and 4828 indicators.
+[2018-09-13T22:58:11Z, INFO] Presolve time = 0.06 sec. (42.43 ticks)
+[2018-09-13T22:58:12Z, INFO] Probing fixed 390 vars, tightened 5978 bounds.
+[2018-09-13T22:58:12Z, INFO] Probing time = 0.30 sec. (120.01 ticks)
+[2018-09-13T22:58:12Z, INFO] Cover probing fixed 0 vars, tightened 488 bounds.
+[2018-09-13T22:58:12Z, INFO] Tried aggregator 2 times.
+[2018-09-13T22:58:12Z, INFO] MIP Presolve eliminated 298 rows and 1140 columns.
+[2018-09-13T22:58:12Z, INFO] MIP Presolve modified 3260 coefficients.
+[2018-09-13T22:58:12Z, INFO] Aggregator did 2 substitutions.
+[2018-09-13T22:58:12Z, INFO] Reduced MIP has 3174 rows, 7212 columns, and 28290 nonzeros.
+[2018-09-13T22:58:12Z, INFO] Reduced MIP has 2611 binaries, 0 generals, 0 SOSs, and 4044 indicators.
+[2018-09-13T22:58:12Z, INFO] Presolve time = 0.05 sec. (27.23 ticks)
+[2018-09-13T22:58:12Z, INFO] Probing fixed 0 vars, tightened 154 bounds.
+[2018-09-13T22:58:12Z, INFO] Probing time = 0.18 sec. (48.76 ticks)
+[2018-09-13T22:58:12Z, INFO] Cover probing fixed 0 vars, tightened 314 bounds.
+[2018-09-13T22:58:12Z, INFO] Tried aggregator 1 time.
+[2018-09-13T22:58:12Z, INFO] MIP Presolve eliminated 4 rows and 52 columns.
+[2018-09-13T22:58:12Z, INFO] Reduced MIP has 3170 rows, 7160 columns, and 28282 nonzeros.
+[2018-09-13T22:58:12Z, INFO] Reduced MIP has 2610 binaries, 0 generals, 0 SOSs, and 3997 indicators.
+[2018-09-13T22:58:12Z, INFO] Presolve time = 0.07 sec. (24.44 ticks)
+[2018-09-13T22:58:12Z, INFO] Represolve time = 1.22 sec. (745.14 ticks)
+[2018-09-13T22:58:12Z, INFO] Probing time = 0.01 sec. (4.29 ticks)
+[2018-09-13T22:58:12Z, INFO] Clique table members: 21110.
+[2018-09-13T22:58:12Z, INFO] MIP emphasis: balance optimality and feasibility.
+[2018-09-13T22:58:12Z, INFO] MIP search method: dynamic search.
+[2018-09-13T22:58:12Z, INFO] Parallel mode: none, using 1 thread.
+[2018-09-13T22:58:13Z, INFO] Root relaxation solution time = 0.17 sec. (83.79 ticks)
+[2018-09-13T22:58:13Z, INFO] 
+[2018-09-13T22:58:13Z, INFO]         Nodes                                         Cuts/
+[2018-09-13T22:58:13Z, INFO]    Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+[2018-09-13T22:58:13Z, INFO] *     0+    0                       2.32395e+07   2.32358e+07             0.02%
+[2018-09-13T22:58:13Z, INFO]       0     0   2.32358e+07  1568   2.32395e+07   2.32358e+07    14357    0.02%
+[2018-09-13T22:58:13Z, INFO]       0     0   2.32358e+07  1384   2.32395e+07     Cuts: 892    14517    0.02%
+[2018-09-13T22:58:14Z, INFO]       0     0   2.32358e+07  1095   2.32395e+07     Cuts: 892    14808    0.02%
+[2018-09-13T22:58:14Z, INFO]       0     0   2.32358e+07   480   2.32395e+07     Cuts: 892    15425    0.02%
+[2018-09-13T22:58:14Z, INFO]       0     0   2.32358e+07   129   2.32395e+07     Cuts: 892    16013    0.02%
+[2018-09-13T22:58:14Z, INFO]       0     0   2.32359e+07    30   2.32395e+07     Cuts: 131    16106    0.02%
+[2018-09-13T22:58:15Z, INFO]       0     0   2.32360e+07    26   2.32395e+07      Cuts: 21    16118    0.02%
+[2018-09-13T22:58:15Z, INFO]       0     0   2.32360e+07    26   2.32395e+07      Cuts: 22    16126    0.02%
+[2018-09-13T22:58:15Z, INFO] *     0+    0                       2.32366e+07   2.32360e+07             0.00%
+[2018-09-13T22:58:15Z, INFO] Clique cuts applied:  844
+[2018-09-13T22:58:15Z, INFO] Cover cuts applied:  989
+[2018-09-13T22:58:15Z, INFO] Implied bound cuts applied:  576
+[2018-09-13T22:58:15Z, INFO] Flow cuts applied:  882
+[2018-09-13T22:58:15Z, INFO] Mixed integer rounding cuts applied:  147
+[2018-09-13T22:58:15Z, INFO] Lift and project cuts applied:  3
+[2018-09-13T22:58:15Z, INFO] Gomory fractional cuts applied:  1
+[2018-09-13T22:58:15Z, INFO] 
+[2018-09-13T22:58:15Z, INFO] Root node processing (before b&c):
+[2018-09-13T22:58:15Z, INFO]   Real time             =   14.21 sec. (8078.34 ticks)
+[2018-09-13T22:58:15Z, INFO] Sequential b&c:
+[2018-09-13T22:58:15Z, INFO]   Real time             =    0.00 sec. (0.00 ticks)
+[2018-09-13T22:58:15Z, INFO]                           ------------
+[2018-09-13T22:58:15Z, INFO] Total (root+branch&cut) =   14.21 sec. (8078.34 ticks)
+[2018-09-13T22:58:16Z, ERROR] /python_container/docloudcontroller.py:424: SettingWithCopyWarning: 
+[2018-09-13T22:58:16Z, ERROR] A value is trying to be set on a copy of a slice from a DataFrame.
+[2018-09-13T22:58:16Z, ERROR] Try using .loc[row_indexer,col_indexer] = value instead
+[2018-09-13T22:58:16Z, ERROR] 
+[2018-09-13T22:58:16Z, ERROR] See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+[2018-09-13T22:58:16Z, ERROR]   inputChannel = InputChannel(sys.stdin)
